@@ -8,7 +8,7 @@ this median as tweets come in.
 def unique_words():
     summary=0
     tweet_count=0
-    Grand_Sum=0.0
+    Grand_Sum=0.00
     words_dict={}  #set up an empty dictionary
     read_file=open(r'tweet_input\tweets.txt','r') # open file for reading
     write_file=open(r'tweet_output\ft2.txt','w')  # open file for writing

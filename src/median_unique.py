@@ -21,7 +21,7 @@ def unique_words():
                     words_dict[words]=1 # fill up dictionary by unique words
         tweet_count+=1 # keep tracking of the tweets number
         Grand_Sum+=summary # collect all unique words
-        write_file.write('%3.1f'%(Grand_Sum/tweet_count)+'\n')  #write the median number after each tweet in the file
+        write_file.write('%3.2f'%(Grand_Sum/tweet_count)+'\n')  #write the median number after each tweet in the file
         summary=0         # clean up the number of unique words of current tweet
         words_dict={}     # clean up current tweet dictionary of unique words
     write_file.close()    # close text file for writing 
